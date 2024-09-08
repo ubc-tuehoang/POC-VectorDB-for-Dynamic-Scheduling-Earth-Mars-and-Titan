@@ -60,11 +60,4 @@ CMD [ "echo", "Successfully installed!" ]
 #> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3.1",  "prompt":"What is water?"}'
 #> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3",  "prompt":"What is water?"}'
 
-#> python ./ci-code-7.py llama3.1
-
-## for command to trigger dream thread: "dream <seconds> <llm model>"
-#> Enter your query (type 'exit' to quit): dream 60 ollama3.1
-
-## for listen to the Dreams output
-## CREATE A NEW BASH
-#> python list-port.py 
+#> python ./sched-code-8.py llama3.1
