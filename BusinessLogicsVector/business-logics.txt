@@ -1,0 +1,37 @@
+Business Logic and Rules
+Flight Duration Calculation
+
+Earth to Moon: Approximately 0.4 hours (24 minutes).
+Earth to Mars: Approximately 0.75 hours (45 minutes).
+Moon to Mars: Approximately 0.65 hours (39 minutes).
+Earth to Titan: Approximately 4.44 hours.
+Earth to Saturn: Approximately 5.19 hours.
+Titan to Saturn: Approximately 4.44 hours.
+Arrival Time Calculation
+
+ALocDate: Determine by adding BlockT (flight duration) to the DLocDate and DLocT (departure date and time). Handle date transitions and time zones appropriately.
+Date and Time Management
+
+Adjust ALocDate to reflect the accurate arrival time considering possible changes in dates due to flight duration.
+Ensure that date and time transitions are handled accurately, accounting for multiple days if necessary.
+Time Zone Differences
+
+DGMTDiff and AGMTDiff: The difference in time zones between departure and arrival locations should be applied when calculating arrival times.
+Block Time
+
+Reflects the time spent traveling between base stations. Ensure this matches the calculated flight durations based on speed and distance.
+Credit Time
+
+Equal to BlockT since there are no additional layovers or delays in this simplified model.
+LocDays
+
+Typically set to 1 day for simplicity, as flights are assumed to be completed within a single day.
+Flight Scheduling Constraints
+
+Frequency: Ensure that flights between each pair of base stations occur frequently enough to meet operational needs.
+Availability: Ensure base stations have sufficient capacity to handle the scheduled flights and incoming traffic.
+Conflicts: Avoid scheduling conflicts by ensuring that no two flights are scheduled to arrive or depart from the same base station at the same time.
+Base Station Operations
+
+Maintenance Windows: Include considerations for base station maintenance which might affect flight scheduling.
+Operational Hours: Ensure flight schedules align with the operational hours of base stations.

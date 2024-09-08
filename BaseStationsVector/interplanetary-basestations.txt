@@ -1,0 +1,35 @@
+the list of base stations:
+
+Earth Bases:
+EHOU - Houston, TX
+EATL - Atlanta, GA
+EAUS - Austin, TX
+EBIL - Billings, MT
+EBTR - Baton Rouge, LA
+ECLE - Cleveland, OH
+ECMH - Columbus, OH
+EDSM - Des Moines, IA
+
+Moon Bases:
+MLUN01 - Lunar Base Alpha
+MLUN02 - Lunar Base Beta
+MLUN03 - Lunar Base Gamma
+MLUN04 - Lunar Base Delta
+MLUN05 - Lunar Base Epsilon
+MLUN06 - Lunar Base Zeta
+MLUN07 - Lunar Base Eta
+
+Mars Bases:
+MMAR01 - Mars Base Alpha
+MMAR02 - Mars Base Beta
+MMAR03 - Mars Base Gamma
+MMAR04 - Mars Base Delta
+MMAR05 - Mars Base Epsilon
+MMAR06 - Mars Base Zeta
+MMAR07 - Mars Base Eta
+
+Saturn Bases: 
+SATURN01 - Saturn Base Alpha
+
+Titan Bases:
+TITAN01 - Titan Base Alpha

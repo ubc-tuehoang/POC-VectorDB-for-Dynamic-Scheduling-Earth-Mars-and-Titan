@@ -1,0 +1,27 @@
+spacecraft traveling at 1/4 the speed of light, 
+
+Key Assumptions:
+Speed of Light: 299,792 km/s.
+Travel Speed: 1/4 of the speed of light = 299,792 km/s * 0.25 = 74,948 km/s.
+
+
+Distances and Travel Times
+
+Earth to Moon:
+Distance = 384,400 km
+Time = Distance / Speed = 384,400 km / 74,948 km/s ≈ 5.13 seconds
+
+Earth to Mars:
+Distance = 225,000,000 km
+Time = Distance / Speed = 225,000,000 km / 74,948 km/s ≈ 3,003.7 seconds or 50.06 minutes
+
+Moon to Mars:
+Distance = 225,000,000 km + 384,400 km ≈ 225,384,400 km
+Time = Distance / Speed = 225,384,400 km / 74,948 km/s ≈ 3,006.2 seconds or 50.1 minutes
+
+
+Distance Estimations:
+Earth to Titan: ~1.2 billion km
+Earth to Saturn: ~1.4 billion km
+Titan to Saturn: ~1.2 million km (since Titan orbits Saturn)
+
